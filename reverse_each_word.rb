@@ -7,7 +7,7 @@ array.each do |word|
  reversed << word.reverse
 end
 
-reversed
+reversed.join(" ")
 
 
 end
