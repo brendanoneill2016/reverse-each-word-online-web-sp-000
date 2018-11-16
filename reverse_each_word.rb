@@ -1,7 +1,13 @@
 def reverse_each_word(sentence)
 
-sentence.reverse 
+array = sentence.split
+reversed = []
 
+array.each do |word|
+ reversed << word.reverse
+end
+
+reversed
 
 
 end
